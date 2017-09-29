@@ -11,7 +11,7 @@ A Ktor application typically consists of a series of features. You can think of 
 that is injected into the request and response pipeline. Usually an application would have a series of features such as `DefaultHeaders` which add headers to every outgoing
 response, `Routing` which allows us to define routes to handle requests, etc.
 
-A feature is "installed" into the [Application](/application) using the `install` function
+A feature is "installed" into the [Application](https://github.com/ktorio/ktorio.github.io/blob/master/pages/docs/Application.md) using the `install` function
 
 ```kotlin
 fun Application.main() {
